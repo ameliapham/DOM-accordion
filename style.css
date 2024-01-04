@@ -7,11 +7,11 @@ body{
     height: 100vh;
     display: flex;
     justify-content: center;
-    align-items: center;
+    margin-top: 150px;
 }
 
 .accordion{
-    background-color: bisque;
+    background-color: rgb(249, 241, 232);
     height: fit-content;
     width: 800px;
     padding: 50px 50px 50px 50px;
@@ -25,12 +25,18 @@ body{
 
 .question{
     border-bottom:rgba(101, 48, 2, 0.27) solid 1px;
+    padding-top: 10px;
     padding-bottom: 10px;
     font-weight: 600;
 }
 
 .answer{
     padding-top: 10px;
-    padding-bottom: 30px;
+    padding-bottom: 10px;
     font-weight: 300;
+    display: none;
+}
+
+.show{
+    display: block;
 }
