@@ -29,6 +29,8 @@ body{
     padding-bottom: 10px;
     font-weight: 600;
     cursor: pointer;
+    display: flex;
+    justify-content: space-between;
 }
 
 .answer{
