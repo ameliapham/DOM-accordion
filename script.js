@@ -8,5 +8,12 @@ document.querySelector('.accordion').addEventListener('click', (e) => {
     if(target.matches('.question')){
         let hiddenAnswer = target.nextElementSibling
         hiddenAnswer.classList.toggle('show')
+
+        let icon = document.querySelector('.icon')
+        if (hiddenAnswer.classList.contains('show')){
+            icon.innerText = '-'
+        } else {
+            icon.innerText = '+'
+        }
     }
 })
