@@ -34,12 +34,23 @@ body{
 }
 
 .answer{
-    padding-top: 10px;
-    padding-bottom: 10px;
+    padding-top: 0px;
+    padding-bottom: 0px;
+    max-height: 0;
     font-weight: 300;
-    display: none;
+    overflow: hidden;
+    transition: max-height 0.5s ease, padding 0.5s ease;
+    opacity: 0;
 }
 
 .show{
-    display: block;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    max-height: 200px;
+    opacity: 1;
+}
+
+.collapsing {
+    position: relative;
+    transition: max-height 0.5s ease, padding 0.5s ease;
 }
