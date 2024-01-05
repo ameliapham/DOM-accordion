@@ -11,7 +11,7 @@ document.querySelector('.accordion').addEventListener('click', (e) => {
 
         let icon = target.querySelector('i')
         if (hiddenAnswer.classList.contains('show')){
-            icon.className = 'ri-subtract-line'
+            icon.className = 'ri-close-line'
         } else {
             icon.className = 'ri-add-fill'
         }
