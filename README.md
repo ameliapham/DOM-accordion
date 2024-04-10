@@ -1,2 +1,3 @@
 # DOM-accordion
-Link of project: https://dom-accordion.vercel.app/
+
+For a live experience, visit my [online demo](https://dom-accordion.vercel.app/).
